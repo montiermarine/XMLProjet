@@ -1,0 +1,49 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    color: rgba(41, 106, 202, 0.452);
+}
+
+h2 {
+    text-align: center;
+    color: lightslategray;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.caption-text{
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(63, 151, 206);
+
+
+}
+body {
+    background-image: linear-gradient(78deg, transparent 0%, transparent 36%,rgba(17, 17, 17,0.02) 36%, rgba(17, 17, 17,0.02) 56%,transparent 56%, transparent 100%),linear-gradient(30deg, transparent 0%, transparent 2%,rgba(105, 105, 105,0.02) 2%, rgba(105, 105, 105,0.02) 75%,transparent 75%, transparent 100%),linear-gradient(206deg, transparent 0%, transparent 68%,rgba(3, 3, 3,0.02) 68%, rgba(3, 3, 3,0.02) 99%,transparent 99%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card {
+    display: inline-block;
+    overflow: hidden;
+}  
+.card img {
+    display: block;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}  
+.card:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
